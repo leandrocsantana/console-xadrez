@@ -9,7 +9,13 @@ namespace console_xadrez
         {
             Posicao p = new Posicao(3, 4);
 
-            Console.WriteLine("Posição: " + p);
+            //Console.WriteLine("Posição: " + p);
+            //Console.ReadLine();
+
+            Double num = Double.MaxValue;
+
+            Console.WriteLine(num.ToString("F2"));
+
             Console.ReadLine();
 
         }
