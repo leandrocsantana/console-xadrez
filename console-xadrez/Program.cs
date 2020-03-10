@@ -1,5 +1,6 @@
 ﻿using System;
-using Tabuleiro;
+using tabuleiro;
+    
 
 namespace console_xadrez
 {
@@ -7,14 +8,7 @@ namespace console_xadrez
     {
         static void Main(string[] args)
         {
-            Posicao p = new Posicao(3, 4);
-
-            //Console.WriteLine("Posição: " + p);
-            //Console.ReadLine();
-
-            Double num = Double.MaxValue;
-
-            Console.WriteLine(num.ToString("F2"));
+            Tabuleiro tab = new Tabuleiro(8,8);
 
             Console.ReadLine();
 
